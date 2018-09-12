@@ -35,7 +35,7 @@ def won?(board)
 end
 
 def full?(board)
-  board.each? {|index| index == "X" || index =="O"}
+  board.each {|index| index == "X" || index =="O"}
 end
 
 def draw?(board)
