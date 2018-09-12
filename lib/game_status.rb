@@ -60,13 +60,16 @@ def winner(board)
   index = won(board)
   if index == false
     nil
-  elsif 
+  else
+    if 
   board[win_index_1]] == "X"
   "X"
 else
   "O"
 end
 end
+end
+
 
 
 
