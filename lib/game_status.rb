@@ -56,14 +56,11 @@ def over?(board)
 end
 
 def winner(board)
-  index = won?(board)
-  if index == false
-    return nil
-    
+ 
  if !won?(board) 
    return nil
- else
-   if
+end
+
      
 
 
