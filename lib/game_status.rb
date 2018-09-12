@@ -56,13 +56,9 @@ def over?(board)
 end
 
 def winner(board)
- if !won?(board) 
-   return nil
- elsif won?(board) && board
- return "X"
- else
-   return "O"
- end
+  if win_combination = won?(board)
+    board[win_combination.first]
+  end
 end
 
      
